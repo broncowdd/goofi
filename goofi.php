@@ -1,4 +1,4 @@
-header("Content-Type: text/css");
+<?php header("Content-Type: text/css");
 $font_folder='fonts';
 if (!empty($_GET['family'])){
 	if (!is_dir($font_folder)){mkdir($font_folder);}
